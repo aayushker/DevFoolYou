@@ -1,0 +1,349 @@
+2025-11-09 00:12:27 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 00:12:27 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 00:12:27 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 00:12:27 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 00:12:27 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 00:12:31 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 00:12:31 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 00:12:31 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 00:13:40 | INFO     | devfoolyou.routers.scraper:find_similar_projects:57 | Finding similar projects for: https://devfolio.co/projects/teleport
+2025-11-09 00:13:40 | INFO     | devfoolyou.routers.scraper:find_similar_projects:65 | Project found in database: https://devfolio.co/projects/teleport
+2025-11-09 00:13:40 | INFO     | devfoolyou.routers.scraper:find_similar_projects:109 | Performing vector similarity search...
+2025-11-09 00:13:41 | INFO     | devfoolyou.routers.scraper:find_similar_projects:121 | Found 5 similar projects
+2025-11-09 00:15:59 | INFO     | devfoolyou.routers.scraper:find_similar_projects:57 | Finding similar projects for: https://devfolio.co/projects/using-ai-x-chainlinkrvf-to-train-emotions-df85
+2025-11-09 00:15:59 | INFO     | devfoolyou.routers.scraper:find_similar_projects:65 | Project found in database: https://devfolio.co/projects/using-ai-x-chainlinkrvf-to-train-emotions-df85
+2025-11-09 00:15:59 | INFO     | devfoolyou.routers.scraper:find_similar_projects:109 | Performing vector similarity search...
+2025-11-09 00:16:00 | INFO     | devfoolyou.routers.scraper:find_similar_projects:121 | Found 5 similar projects
+2025-11-09 00:20:43 | INFO     | devfoolyou.routers.scraper:find_similar_projects:57 | Finding similar projects for: https://devfolio.co/projects/watch-aman-ramgarhia-alleged-leaked-viral-ac0e
+2025-11-09 00:20:43 | INFO     | devfoolyou.routers.scraper:find_similar_projects:65 | Project found in database: https://devfolio.co/projects/watch-aman-ramgarhia-alleged-leaked-viral-ac0e
+2025-11-09 00:20:43 | INFO     | devfoolyou.routers.scraper:find_similar_projects:109 | Performing vector similarity search...
+2025-11-09 00:20:44 | INFO     | devfoolyou.routers.scraper:find_similar_projects:121 | Found 5 similar projects
+2025-11-09 00:22:46 | INFO     | devfoolyou.routers.scraper:find_similar_projects:57 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:22:46 | INFO     | devfoolyou.routers.scraper:find_similar_projects:65 | Project found in database: https://devfolio.co/projects/dbuz
+2025-11-09 00:22:46 | INFO     | devfoolyou.routers.scraper:find_similar_projects:109 | Performing vector similarity search...
+2025-11-09 00:22:47 | INFO     | devfoolyou.routers.scraper:find_similar_projects:121 | Found 5 similar projects
+2025-11-09 00:30:19 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 00:30:19 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 00:30:20 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 00:30:20 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 00:30:20 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 00:30:25 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 00:30:25 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 00:30:25 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 00:41:19 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 00:41:19 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 00:41:19 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 00:41:19 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 00:41:55 | WARNING  | devfoolyou.services.ai_intelligence:_initialize_gemini:23 | GEMINI_API_KEY not set. AI intelligence features will be disabled.
+2025-11-09 00:41:56 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 00:41:56 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 00:41:56 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 00:41:56 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 00:41:56 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 00:42:00 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 00:42:00 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 00:42:00 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 00:42:34 | INFO     | devfoolyou.routers.scraper:find_similar_projects:57 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:42:34 | INFO     | devfoolyou.routers.scraper:find_similar_projects:65 | Project found in database: https://devfolio.co/projects/dbuz
+2025-11-09 00:42:34 | INFO     | devfoolyou.routers.scraper:find_similar_projects:109 | Performing vector similarity search...
+2025-11-09 00:42:35 | INFO     | devfoolyou.routers.scraper:find_similar_projects:121 | Found 5 similar projects
+2025-11-09 00:45:06 | INFO     | devfoolyou.routers.scraper:find_similar_projects:57 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:45:06 | INFO     | devfoolyou.routers.scraper:find_similar_projects:65 | Project found in database: https://devfolio.co/projects/dbuz
+2025-11-09 00:45:06 | INFO     | devfoolyou.routers.scraper:find_similar_projects:109 | Performing vector similarity search...
+2025-11-09 00:45:06 | INFO     | devfoolyou.routers.scraper:find_similar_projects:121 | Found 5 similar projects
+2025-11-09 00:49:13 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:49:14 | WARNING  | devfoolyou.services.ai_intelligence:generate_similarity_verdict:90 | Gemini AI not initialized. Skipping AI verdict.
+2025-11-09 00:49:14 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 00:51:59 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 00:51:59 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 00:51:59 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 00:51:59 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 00:52:08 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-1.5-flash
+2025-11-09 00:52:08 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 00:52:08 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 00:52:08 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 00:52:08 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 00:52:08 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 00:52:12 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 00:52:12 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 00:52:12 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 00:52:15 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:52:16 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:103 | Generating AI verdict for similarity analysis...
+2025-11-09 00:52:16 | ERROR    | devfoolyou.services.ai_intelligence:generate_similarity_verdict:126 | Error generating AI verdict: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/gopatron/Documents/DevFoolYou/backend/services/ai_intelligence.py", line 106, in generate_similarity_verdict
+    response = self.model.generate_content(
+        prompt,
+    ...<3 lines>...
+        )
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-09 00:52:16 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 00:53:56 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 00:53:56 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 00:53:56 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 00:53:56 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 00:54:07 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-1.5-flash
+2025-11-09 00:54:07 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 00:54:07 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 00:54:08 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 00:54:08 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 00:54:08 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 00:54:12 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 00:54:12 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 00:54:12 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 00:54:15 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:54:16 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:103 | Generating AI verdict for similarity analysis...
+2025-11-09 00:54:17 | ERROR    | devfoolyou.services.ai_intelligence:generate_similarity_verdict:126 | Error generating AI verdict: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/gopatron/Documents/DevFoolYou/backend/services/ai_intelligence.py", line 106, in generate_similarity_verdict
+    response = self.model.generate_content(
+        prompt,
+    ...<3 lines>...
+        )
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-09 00:54:17 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 00:54:44 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:54:45 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:103 | Generating AI verdict for similarity analysis...
+2025-11-09 00:54:45 | ERROR    | devfoolyou.services.ai_intelligence:generate_similarity_verdict:126 | Error generating AI verdict: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Traceback (most recent call last):
+  File "/home/gopatron/Documents/DevFoolYou/backend/services/ai_intelligence.py", line 106, in generate_similarity_verdict
+    response = self.model.generate_content(
+        prompt,
+    ...<3 lines>...
+        )
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+        request,
+        **request_options,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 835, in generate_content
+    response = rpc(
+        request,
+    ...<2 lines>...
+        metadata=metadata,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_unary.py", line 156, in retry_target
+    next_sleep = _retry_error_helper(
+        exc,
+    ...<6 lines>...
+        timeout,
+    )
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_base.py", line 214, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/retry/retry_unary.py", line 147, in retry_target
+    result = target()
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/timeout.py", line 130, in func_with_timeout
+    return func(*args, **kwargs)
+  File "/home/gopatron/Documents/DevFoolYou/backend/venv/lib/python3.13/site-packages/google/api_core/grpc_helpers.py", line 77, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-11-09 00:54:45 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 00:54:48 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 00:54:48 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 00:54:48 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 00:54:48 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 00:55:07 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-2.0-flash
+2025-11-09 00:55:07 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 00:55:07 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 00:55:08 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 00:55:08 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 00:55:08 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 00:55:14 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 00:55:14 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 00:55:14 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 00:55:16 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:55:17 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:103 | Generating AI verdict for similarity analysis...
+2025-11-09 00:55:20 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:116 | AI verdict generated successfully
+2025-11-09 00:55:20 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 00:56:20 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 00:56:20 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 00:56:20 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 00:56:20 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 00:56:31 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-2.0-flash
+2025-11-09 00:56:31 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 00:56:31 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 00:56:31 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 00:56:31 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 00:56:31 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 00:56:35 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 00:56:35 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 00:56:35 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 00:56:39 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:56:40 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:101 | Generating AI verdict for similarity analysis...
+2025-11-09 00:56:42 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:114 | AI verdict generated successfully
+2025-11-09 00:56:42 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 00:58:05 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 00:58:05 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 00:58:05 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 00:58:05 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 00:58:16 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-2.0-flash
+2025-11-09 00:58:16 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 00:58:16 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 00:58:17 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 00:58:17 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 00:58:17 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 00:58:21 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 00:58:21 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 00:58:21 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 00:58:26 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 00:58:27 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:101 | Generating AI verdict for similarity analysis...
+2025-11-09 00:58:29 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:114 | AI verdict generated successfully
+2025-11-09 00:58:29 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 01:14:41 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 01:14:41 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 01:14:41 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 01:14:41 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 01:14:57 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-2.0-flash
+2025-11-09 01:14:57 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 01:14:57 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 01:14:58 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 01:14:58 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 01:14:58 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 01:15:05 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 01:15:05 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 01:15:05 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 02:47:55 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 02:47:56 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 02:47:56 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 02:47:56 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 03:24:31 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-2.0-flash
+2025-11-09 03:24:31 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 03:24:31 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 03:24:32 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 03:24:32 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 03:24:32 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 03:24:35 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 03:24:35 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 03:24:35 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 03:24:35 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 03:24:35 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 03:24:35 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 03:24:35 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 03:24:58 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-2.0-flash
+2025-11-09 03:24:58 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 03:24:58 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 03:24:58 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 03:24:58 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 03:24:58 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 03:25:03 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 03:25:03 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 03:25:03 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 03:32:02 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 03:32:02 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 03:32:02 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 03:32:02 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 03:32:40 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-2.0-flash
+2025-11-09 03:32:40 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 03:32:40 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 03:32:41 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 03:32:41 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 03:32:41 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 03:32:47 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 03:32:47 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 03:32:47 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 03:34:59 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 03:35:00 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:101 | Generating AI verdict for similarity analysis...
+2025-11-09 03:35:03 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:114 | AI verdict generated successfully
+2025-11-09 03:35:03 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 03:43:48 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 03:43:49 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:101 | Generating AI verdict for similarity analysis...
+2025-11-09 03:43:51 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:114 | AI verdict generated successfully
+2025-11-09 03:43:51 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 03:52:18 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 03:52:18 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 03:52:18 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 03:52:18 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 03:52:31 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-2.0-flash
+2025-11-09 03:52:31 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 03:52:31 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 03:52:32 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 03:52:32 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 03:52:32 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 03:52:37 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 03:52:37 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 03:52:37 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 03:53:32 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/watch-aman-ramgarhia-alleged-leaked-viral-ac0e
+2025-11-09 03:53:33 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:101 | Generating AI verdict for similarity analysis...
+2025-11-09 03:53:36 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:114 | AI verdict generated successfully
+2025-11-09 03:53:36 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 03:55:13 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 03:55:14 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:101 | Generating AI verdict for similarity analysis...
+2025-11-09 03:55:16 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:114 | AI verdict generated successfully
+2025-11-09 03:55:16 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects

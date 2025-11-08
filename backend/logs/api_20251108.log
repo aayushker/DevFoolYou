@@ -1,0 +1,14 @@
+2025-11-08 23:52:19 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-08 23:52:19 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-08 23:52:19 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-08 23:52:19 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-08 23:52:19 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-08 23:52:25 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-08 23:52:25 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-08 23:52:25 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-08 23:54:14 | INFO     | devfoolyou.routers.scraper:scrape_project:51 | Scrape request received for: https://devfolio.co/projects/teleport
+2025-11-08 23:54:14 | INFO     | devfoolyou.routers.scraper:scrape_project:57 | Project already exists: https://devfolio.co/projects/teleport
+2025-11-09 00:12:18 | INFO     | devfoolyou:lifespan:51 | Shutting down DevFoolYou API Server...
+2025-11-09 00:12:18 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
+2025-11-09 00:12:18 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
+2025-11-09 00:12:18 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete

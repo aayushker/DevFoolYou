@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+devfolio_scraper.egg-info/PKG-INFO
+devfolio_scraper.egg-info/SOURCES.txt
+devfolio_scraper.egg-info/dependency_links.txt
+devfolio_scraper.egg-info/requires.txt
+devfolio_scraper.egg-info/top_level.txt
+scraper/__init__.py
+scraper/cli.py
+scraper/config.py
+scraper/logger.py
+scraper/parser.py
+scraper/scroll.py
+scraper/storage.py

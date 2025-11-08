@@ -1,0 +1,171 @@
+2025-11-08 21:23:41 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=5, scroll_pause_seconds=1.5, max_scroll_attempts=250, scroll_idle_tolerance=12, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.5, 1.8), headless=True, concurrency=6, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 21:23:42 | INFO     | devfolio_scraper | Starting listing scrape for up to 5 projects.
+2025-11-08 21:24:23 | WARNING  | devfolio_scraper | No new projects detected after 12 idle rounds. Stopping scroll.
+2025-11-08 21:24:25 | INFO     | devfolio_scraper | Listing scrape complete. Found 0 project URLs.
+2025-11-08 21:24:25 | ERROR    | devfolio_scraper | No project URLs collected. Exiting.
+2025-11-08 21:24:54 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=5, scroll_pause_seconds=1.5, max_scroll_attempts=250, scroll_idle_tolerance=12, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.5, 1.8), headless=True, concurrency=6, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 21:24:55 | INFO     | devfolio_scraper | Starting listing scrape for up to 5 projects.
+2025-11-08 21:25:17 | WARNING  | devfolio_scraper | Project cards did not appear within 15s; proceeding with scroll attempts.
+2025-11-08 21:25:44 | WARNING  | devfolio_scraper | No new projects detected after 12 idle rounds. Stopping scroll.
+2025-11-08 21:25:46 | INFO     | devfolio_scraper | Listing scrape complete. Found 0 project URLs.
+2025-11-08 21:25:46 | ERROR    | devfolio_scraper | No project URLs collected. Exiting.
+2025-11-08 21:26:14 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=5, scroll_pause_seconds=1.5, max_scroll_attempts=250, scroll_idle_tolerance=12, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.5, 1.8), headless=True, concurrency=6, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 21:26:30 | INFO     | devfolio_scraper | Starting listing scrape for up to 5 projects.
+2025-11-08 21:26:51 | WARNING  | devfolio_scraper | Project cards did not appear within 15s; proceeding with scroll attempts.
+2025-11-08 21:27:20 | WARNING  | devfolio_scraper | No new projects detected after 12 idle rounds. Stopping scroll.
+2025-11-08 21:27:21 | INFO     | devfolio_scraper | Listing scrape complete. Found 0 project URLs.
+2025-11-08 21:27:21 | ERROR    | devfolio_scraper | No project URLs collected. Exiting.
+2025-11-08 21:27:40 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=5, scroll_pause_seconds=1.5, max_scroll_attempts=250, scroll_idle_tolerance=12, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.5, 1.8), headless=True, concurrency=6, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 21:27:40 | INFO     | devfolio_scraper | Starting listing scrape for up to 5 projects.
+2025-11-08 21:28:00 | WARNING  | devfolio_scraper | Project cards did not appear within 15s; proceeding with scroll attempts. Found sample anchors: ['#main-content', 'https://devfolio.co/discover', 'https://devfolio.co/home', 'https://devfolio.co/blog', 'https://devfolio.co/projects/using-ai-x-chainlinkrvf-to-train-emotions-df85', 'https://devfolio.co/projects/dbuz', 'https://devfolio.co/projects/circuit-solver-4a00', 'https://devfolio.co/projects/teleport', 'https://devfolio.co/projects/dress-colour-changer-c99c', 'https://devfolio.co/projects/artsky-271c', 'https://devfolio.co/projects/hd-4698', 'https://devfolio.co/projects/sevashop', 'https://devfolio.co/projects/ai-image-caption-bot', 'https://devfolio.co/projects/type-write-f0cd', 'https://t.me/devfolio', 'https://twitter.com/devfolio', 'https://nsb.dev/discord', 'https://dribbble.com/devfolio', 'https://github.com/devfolioco', 'https://www.linkedin.com/company/devfolio/']
+2025-11-08 21:28:31 | WARNING  | devfolio_scraper | No new projects detected after 12 idle rounds. Stopping scroll.
+2025-11-08 21:28:32 | INFO     | devfolio_scraper | Listing scrape complete. Found 0 project URLs.
+2025-11-08 21:28:32 | ERROR    | devfolio_scraper | No project URLs collected. Exiting.
+2025-11-08 21:28:47 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=5, scroll_pause_seconds=1.5, max_scroll_attempts=250, scroll_idle_tolerance=12, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.5, 1.8), headless=True, concurrency=6, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 21:28:48 | INFO     | devfolio_scraper | Starting listing scrape for up to 5 projects.
+2025-11-08 21:28:55 | INFO     | devfolio_scraper | Collected required number of project URLs (5).
+2025-11-08 21:28:56 | INFO     | devfolio_scraper | Listing scrape complete. Found 10 project URLs.
+2025-11-08 21:29:42 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/using-ai-x-chainlinkrvf-to-train-emotions-df85 (attempt 1/4)
+2025-11-08 21:29:51 | INFO     | devfolio_scraper | Successfully wrote 5 project records to projects_data.csv.
+2025-11-08 21:29:51 | INFO     | devfolio_scraper | All project pages scraped successfully.
+2025-11-08 21:30:31 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=1000, scroll_pause_seconds=1.5, max_scroll_attempts=250, scroll_idle_tolerance=12, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.5, 1.8), headless=True, concurrency=6, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 21:30:32 | INFO     | devfolio_scraper | Starting listing scrape for up to 1000 projects.
+2025-11-08 21:59:00 | INFO     | devfolio_scraper | Collected required number of project URLs (1000).
+2025-11-08 21:59:01 | INFO     | devfolio_scraper | Listing scrape complete. Found 1000 project URLs.
+2025-11-08 22:00:27 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/placementprepai-5594 (attempt 1/4)
+2025-11-08 22:01:50 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/bitgrass-604b (attempt 1/4)
+2025-11-08 22:02:25 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/foodcheckai-3d89 (attempt 1/4)
+2025-11-08 22:02:56 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/peer-up-e096 (attempt 1/4)
+2025-11-08 22:02:57 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/gamegon-1e4d (attempt 1/4)
+2025-11-08 22:02:57 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/mental-health-tracker-1 (attempt 1/4)
+2025-11-08 22:03:46 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/certificate-generator (attempt 1/4)
+2025-11-08 22:03:51 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/ytplus-43c7 (attempt 1/4)
+2025-11-08 22:04:44 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/shaadionchain-1cf8 (attempt 1/4)
+2025-11-08 22:05:58 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/zolaa-zoom-online-lecture-attendance-automation (attempt 1/4)
+2025-11-08 22:07:26 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/ipl-win-prediction (attempt 1/4)
+2025-11-08 22:07:46 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/phoenix-1 (attempt 1/4)
+2025-11-08 22:07:46 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/stonks-9f8d (attempt 1/4)
+2025-11-08 22:07:49 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/inventory-management-system (attempt 1/4)
+2025-11-08 22:07:50 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/hello-6 (attempt 1/4)
+2025-11-08 22:07:57 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/space-shooters-5a86 (attempt 1/4): Page.goto: net::ERR_CONNECTION_CLOSED at https://devfolio.co/projects/space-shooters-5a86
+Call log:
+  - navigating to "https://devfolio.co/projects/space-shooters-5a86", waiting until "networkidle"
+
+2025-11-08 22:07:57 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/maks-pay (attempt 1/4): Page.goto: net::ERR_CONNECTION_CLOSED at https://devfolio.co/projects/maks-pay
+Call log:
+  - navigating to "https://devfolio.co/projects/maks-pay", waiting until "networkidle"
+
+2025-11-08 22:07:58 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/fold (attempt 1/4): Page.goto: net::ERR_CONNECTION_CLOSED at https://devfolio.co/projects/fold
+Call log:
+  - navigating to "https://devfolio.co/projects/fold", waiting until "networkidle"
+
+2025-11-08 22:07:58 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/chainwed-e5ce (attempt 1/4): Page.goto: net::ERR_CONNECTION_CLOSED at https://devfolio.co/projects/chainwed-e5ce
+Call log:
+  - navigating to "https://devfolio.co/projects/chainwed-e5ce", waiting until "networkidle"
+
+2025-11-08 22:08:11 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/linedge-4e41 (attempt 1/4)
+2025-11-08 22:08:29 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/aishacks-e6a1 (attempt 1/4)
+2025-11-08 22:09:01 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/cypher-sync-0b41 (attempt 1/4)
+2025-11-08 22:09:03 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/valt-d379 (attempt 1/4)
+2025-11-08 22:09:04 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/meet-world-3fca (attempt 1/4)
+2025-11-08 22:09:04 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/shikshak-3 (attempt 1/4)
+2025-11-08 22:09:04 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/tshirt-customization-using-d-website-86f7 (attempt 1/4)
+2025-11-08 22:09:14 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/augmented-gardens (attempt 1/4)
+2025-11-08 22:09:22 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/blue-social-a74f (attempt 1/4): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://devfolio.co/projects/blue-social-a74f
+Call log:
+  - navigating to "https://devfolio.co/projects/blue-social-a74f", waiting until "networkidle"
+
+2025-11-08 22:09:22 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/old-care-a908 (attempt 1/4): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://devfolio.co/projects/old-care-a908
+Call log:
+  - navigating to "https://devfolio.co/projects/old-care-a908", waiting until "networkidle"
+
+2025-11-08 22:09:22 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/solarai-the-solar-map-project-e649 (attempt 1/4): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://devfolio.co/projects/solarai-the-solar-map-project-e649
+Call log:
+  - navigating to "https://devfolio.co/projects/solarai-the-solar-map-project-e649", waiting until "networkidle"
+
+2025-11-08 22:09:22 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/xcxcx (attempt 1/4): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://devfolio.co/projects/xcxcx
+Call log:
+  - navigating to "https://devfolio.co/projects/xcxcx", waiting until "networkidle"
+
+2025-11-08 22:09:22 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/squadops-4219 (attempt 1/4): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://devfolio.co/projects/squadops-4219
+Call log:
+  - navigating to "https://devfolio.co/projects/squadops-4219", waiting until "networkidle"
+
+2025-11-08 22:09:22 | WARNING  | devfolio_scraper | Error scraping https://devfolio.co/projects/cavesocial-2139 (attempt 1/4): Page.goto: net::ERR_NAME_NOT_RESOLVED at https://devfolio.co/projects/cavesocial-2139
+Call log:
+  - navigating to "https://devfolio.co/projects/cavesocial-2139", waiting until "networkidle"
+
+2025-11-08 22:10:36 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/aatoall (attempt 1/4)
+2025-11-08 22:10:37 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/smart-contract-educator-6a6b (attempt 1/4)
+2025-11-08 22:10:37 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/petrol-pump-management-system-eb0d (attempt 1/4)
+2025-11-08 22:12:36 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/iot-based-smart-water-management-system-f5ad (attempt 1/4)
+2025-11-08 22:12:39 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/praddict (attempt 1/4)
+2025-11-08 22:14:43 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/barios-138b (attempt 1/4)
+2025-11-08 22:15:16 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/defipplender-9de2 (attempt 1/4)
+2025-11-08 22:16:10 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/yoglife-b20d (attempt 1/4)
+2025-11-08 22:16:19 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/impactx-powered-by-flow-593c (attempt 1/4)
+2025-11-08 22:17:17 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/pathshala (attempt 1/4)
+2025-11-08 22:18:14 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/sanjivani (attempt 1/4)
+2025-11-08 22:18:46 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/krushimitra-1b62 (attempt 1/4)
+2025-11-08 22:19:03 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/placementprepai-5594 (attempt 2/4)
+2025-11-08 22:19:15 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/zolaa-zoom-online-lecture-attendance-automation (attempt 2/4)
+2025-11-08 22:19:17 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/ipl-win-prediction (attempt 2/4)
+2025-11-08 22:19:35 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/linedge-4e41 (attempt 2/4)
+2025-11-08 22:20:02 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/iot-based-smart-water-management-system-f5ad (attempt 2/4)
+2025-11-08 22:20:07 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/defipplender-9de2 (attempt 2/4)
+2025-11-08 22:20:07 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/yoglife-b20d (attempt 2/4)
+2025-11-08 22:20:13 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/pathshala (attempt 2/4)
+2025-11-08 22:20:15 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/sanjivani (attempt 2/4)
+2025-11-08 22:20:21 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/krushimitra-1b62 (attempt 2/4)
+2025-11-08 22:20:48 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/placementprepai-5594 (attempt 3/4)
+2025-11-08 22:20:53 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/zolaa-zoom-online-lecture-attendance-automation (attempt 3/4)
+2025-11-08 22:20:53 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/ipl-win-prediction (attempt 3/4)
+2025-11-08 22:20:58 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/linedge-4e41 (attempt 3/4)
+2025-11-08 22:21:01 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/iot-based-smart-water-management-system-f5ad (attempt 3/4)
+2025-11-08 22:21:06 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/defipplender-9de2 (attempt 3/4)
+2025-11-08 22:21:38 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/pathshala (attempt 3/4)
+2025-11-08 22:21:38 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/sanjivani (attempt 3/4)
+2025-11-08 22:21:43 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/krushimitra-1b62 (attempt 3/4)
+2025-11-08 22:21:46 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/placementprepai-5594 (attempt 4/4)
+2025-11-08 22:21:51 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/zolaa-zoom-online-lecture-attendance-automation (attempt 4/4)
+2025-11-08 22:21:58 | ERROR    | devfolio_scraper | Failed to scrape https://devfolio.co/projects/placementprepai-5594 after 4 attempts.
+2025-11-08 22:22:03 | ERROR    | devfolio_scraper | Failed to scrape https://devfolio.co/projects/zolaa-zoom-online-lecture-attendance-automation after 4 attempts.
+2025-11-08 22:22:23 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/iot-based-smart-water-management-system-f5ad (attempt 4/4)
+2025-11-08 22:22:28 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/defipplender-9de2 (attempt 4/4)
+2025-11-08 22:22:32 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/pathshala (attempt 4/4)
+2025-11-08 22:22:35 | ERROR    | devfolio_scraper | Failed to scrape https://devfolio.co/projects/iot-based-smart-water-management-system-f5ad after 4 attempts.
+2025-11-08 22:22:36 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/sanjivani (attempt 4/4)
+2025-11-08 22:22:40 | ERROR    | devfolio_scraper | Failed to scrape https://devfolio.co/projects/defipplender-9de2 after 4 attempts.
+2025-11-08 22:22:41 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/krushimitra-1b62 (attempt 4/4)
+2025-11-08 22:22:44 | ERROR    | devfolio_scraper | Failed to scrape https://devfolio.co/projects/pathshala after 4 attempts.
+2025-11-08 22:22:48 | ERROR    | devfolio_scraper | Failed to scrape https://devfolio.co/projects/sanjivani after 4 attempts.
+2025-11-08 22:22:53 | ERROR    | devfolio_scraper | Failed to scrape https://devfolio.co/projects/krushimitra-1b62 after 4 attempts.
+2025-11-08 22:22:54 | INFO     | devfolio_scraper | Successfully wrote 993 project records to projects_data.csv.
+2025-11-08 22:22:54 | WARNING  | devfolio_scraper | Failed to scrape 7 projects. See failed_projects.txt for details.
+2025-11-08 22:23:19 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=1000, scroll_pause_seconds=1.5, max_scroll_attempts=250, scroll_idle_tolerance=12, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.5, 1.8), headless=True, concurrency=6, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 22:23:20 | INFO     | devfolio_scraper | Starting listing scrape for up to 1000 projects.
+2025-11-08 22:36:03 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=5, scroll_pause_seconds=0.6, max_scroll_attempts=250, scroll_idle_tolerance=12, scroll_wait_timeout=4.0, scroll_step_multiplier=0.9, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.2, 0.5), headless=True, concurrency=6, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 22:36:05 | INFO     | devfolio_scraper | Starting listing scrape for up to 5 projects.
+2025-11-08 22:36:12 | INFO     | devfolio_scraper | Collected required number of project URLs (5).
+2025-11-08 22:36:13 | INFO     | devfolio_scraper | Listing scrape complete. Found 10 project URLs.
+2025-11-08 22:36:24 | INFO     | devfolio_scraper | Successfully wrote 5 project records to projects_data.csv.
+2025-11-08 22:36:24 | INFO     | devfolio_scraper | All project pages scraped successfully.
+2025-11-08 22:36:35 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=1000, scroll_pause_seconds=0.6, max_scroll_attempts=250, scroll_idle_tolerance=12, scroll_wait_timeout=4.0, scroll_step_multiplier=0.9, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.2, 0.5), headless=True, concurrency=8, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 22:36:36 | INFO     | devfolio_scraper | Starting listing scrape for up to 1000 projects.
+2025-11-08 22:37:27 | INFO     | devfolio_scraper | Scraper started with configuration: ScraperConfig(base_url='https://devfolio.co', listing_path='/search?primary_filter=projects', target_projects=1000, scroll_pause_seconds=0.6, max_scroll_attempts=250, scroll_idle_tolerance=12, scroll_wait_timeout=4.0, scroll_step_multiplier=0.9, max_retries=3, retry_backoff_seconds=3.0, rate_delay_range=(0.2, 0.5), headless=True, concurrency=8, request_timeout_ms=45000, output_data_path=WindowsPath('projects_data.csv'), output_embeddings_path=WindowsPath('embeddings.csv'), log_path=WindowsPath('scraper.log'), failures_path=WindowsPath('failed_projects.txt'), progress_refresh_seconds=0.5, screenshot_on_error=False)
+2025-11-08 22:37:28 | INFO     | devfolio_scraper | Starting listing scrape for up to 1000 projects.
+2025-11-08 22:54:23 | INFO     | devfolio_scraper | Collected required number of project URLs (1000).
+2025-11-08 22:54:25 | INFO     | devfolio_scraper | Listing scrape complete. Found 1000 project URLs.
+2025-11-08 22:55:43 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/chillquest-3414 (attempt 1/4)
+2025-11-08 22:56:28 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/uniplix-716f (attempt 1/4)
+2025-11-08 22:57:16 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/crscndo (attempt 1/4)
+2025-11-08 22:57:44 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/pwnhub (attempt 1/4)
+2025-11-08 22:58:02 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/bitgrass-604b (attempt 1/4)
+2025-11-08 22:58:44 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/foodcheckai-3d89 (attempt 1/4)
+2025-11-08 23:00:46 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/shaadionchain-1cf8 (attempt 1/4)
+2025-11-08 23:02:22 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/zolaa-zoom-online-lecture-attendance-automation (attempt 1/4)
+2025-11-08 23:02:39 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/clinica-e4f7 (attempt 1/4)
+2025-11-08 23:04:19 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/ipl-win-prediction (attempt 1/4)
+2025-11-08 23:04:21 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/anyverify-your-friendly-wallet-verification-tool-daba (attempt 1/4)
+2025-11-08 23:07:21 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/centuari-8448 (attempt 1/4)
+2025-11-08 23:08:35 | WARNING  | devfolio_scraper | Timeout scraping https://devfolio.co/projects/iot-based-smart-water-management-system-f5ad (attempt 1/4)

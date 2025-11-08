@@ -1,0 +1,6 @@
+playwright>=1.49.0
+tqdm>=4.66.0
+tenacity>=8.2.3
+
+[dev]
+pytest>=8.0.0
