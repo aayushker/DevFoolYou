@@ -6,6 +6,11 @@ passlib[bcrypt]
 python-jose[cryptography]
 python-multipart
 pydantic[email]
+python-dotenv
+
+# Auth0
+authlib
+httpx
 
 # Async MongoDB
 motor

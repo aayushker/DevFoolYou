@@ -1,11 +1,12 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { useState } from "react"
-import { Menu, X, Zap } from "lucide-react"
+import Link from "next/link";
+import { useState } from "react";
+import { Menu, X, Zap } from "lucide-react";
+import AuthNav from "./AuthNav";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100">
@@ -23,11 +24,17 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-blue-600 transition relative group">
+            <Link
+              href="/"
+              className="text-gray-700 hover:text-blue-600 transition relative group"
+            >
               Home
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
             </Link>
-            <Link href="#features" className="text-gray-700 hover:text-blue-600 transition relative group">
+            <Link
+              href="#features"
+              className="text-gray-700 hover:text-blue-600 transition relative group"
+            >
               Features
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
             </Link>
@@ -37,20 +44,35 @@ export default function Navbar() {
             >
               Start Checking
             </Link>
+            <AuthNav />
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
-            {isOpen ? <X size={24} className="text-gray-900" /> : <Menu size={24} className="text-gray-900" />}
+          <button
+            className="md:hidden"
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle menu"
+          >
+            {isOpen ? (
+              <X size={24} className="text-gray-900" />
+            ) : (
+              <Menu size={24} className="text-gray-900" />
+            )}
           </button>
         </div>
 
         {isOpen && (
           <div className="md:hidden pb-4 space-y-2 animate-in fade-in slide-in-from-top-2">
-            <Link href="/" className="block text-gray-700 hover:text-blue-600 py-2 transition">
+            <Link
+              href="/"
+              className="block text-gray-700 hover:text-blue-600 py-2 transition"
+            >
               Home
             </Link>
-            <Link href="#features" className="block text-gray-700 hover:text-blue-600 py-2 transition">
+            <Link
+              href="#features"
+              className="block text-gray-700 hover:text-blue-600 py-2 transition"
+            >
               Features
             </Link>
             <Link
@@ -59,9 +81,12 @@ export default function Navbar() {
             >
               Start Checking
             </Link>
+            <div className="pt-2">
+              <AuthNav />
+            </div>
           </div>
         )}
       </div>
     </nav>
-  )
+  );
 }

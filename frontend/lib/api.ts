@@ -10,11 +10,11 @@ const api = axios.create({
   withCredentials: true,
 });
 
-// Request interceptor to add token
+// Request interceptor to add Auth0 token
 api.interceptors.request.use(
   (config) => {
     if (typeof window !== "undefined") {
-      const token = localStorage.getItem("token");
+      const token = localStorage.getItem("auth0_token");
       if (token) {
         config.headers.Authorization = `Bearer ${token}`;
       }
@@ -32,8 +32,9 @@ api.interceptors.response.use(
   (error) => {
     if (error.response?.status === 401) {
       if (typeof window !== "undefined") {
-        localStorage.removeItem("token");
-        window.location.href = "/login";
+        localStorage.removeItem("auth0_token");
+        localStorage.removeItem("auth0_user");
+        // Don't auto-redirect, let the app handle it
       }
     }
     return Promise.reject(error);
@@ -42,15 +43,11 @@ api.interceptors.response.use(
 
 // Auth API
 export const authAPI = {
-  register: (userData: { username: string; email: string; password: string }) =>
-    api.post("/auth/register", userData),
+  getProfile: () => api.get("/auth/me"),
 
-  login: (credentials: { email: string; password: string }) =>
-    api.post("/auth/login", credentials),
+  verifyToken: () => api.get("/auth/verify"),
 
-  logout: () => api.post("/auth/logout"),
-
-  getProfile: () => api.get("/auth/profile"),
+  getConfig: () => api.get("/auth/config"),
 };
 
 // Projects API

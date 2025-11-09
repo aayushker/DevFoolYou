@@ -48,6 +48,12 @@ class Settings(BaseSettings):
     EMBEDDING_MODEL_NAME: str = "sentence-transformers/all-MiniLM-L6-v2"
     EMBEDDING_DIMENSION: int = 384
     
+    # Auth0 Settings
+    AUTH0_DOMAIN: str = ""
+    AUTH0_API_AUDIENCE: str = ""
+    AUTH0_ISSUER: str = ""
+    AUTH0_ALGORITHMS: str = "RS256"
+    
     # Scraper Settings (from scraper module)
     SCRAPER_BASE_URL: str = "https://devfolio.co"
     SCRAPER_HEADLESS: bool = True

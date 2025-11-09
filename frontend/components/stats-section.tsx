@@ -17,21 +17,21 @@ export default function StatsSection() {
   const stats = [
     {
       label: "Indexed Projects",
-      value: "150",
+      value: "1136",
       description: "Database Size",
       icon: "📚",
       color: "from-blue-500 to-blue-600",
     },
     {
       label: "Projects Analyzed",
-      value: "0",
+      value: "19",
       description: "Processed",
       icon: "⚡",
       color: "from-purple-500 to-purple-600",
     },
     {
       label: "Average Check Time",
-      value: "<5s",
+      value: "<3s",
       description: "Speed",
       icon: "⏱️",
       color: "from-cyan-500 to-cyan-600",

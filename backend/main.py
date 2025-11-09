@@ -11,7 +11,7 @@ import logging
 from typing import Optional
 import asyncio
 
-from routers import scraper, similarity, bulk
+from routers import scraper, similarity, bulk, auth
 from core.config import settings
 from core.logger import setup_logging
 from services.mongodb import mongodb_client
@@ -73,6 +73,7 @@ app.add_middleware(
 )
 
 # Include routers
+app.include_router(auth.router, prefix="/api/auth", tags=["Authentication"])
 app.include_router(scraper.router, prefix="/api/scraper", tags=["Scraper"])
 app.include_router(similarity.router, prefix="/api/similarity", tags=["Similarity Search"])
 app.include_router(bulk.router, prefix="/api/bulk", tags=["Bulk Operations"])
