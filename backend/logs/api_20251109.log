@@ -347,3 +347,7 @@ google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found fo
 2025-11-09 03:55:14 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:101 | Generating AI verdict for similarity analysis...
 2025-11-09 03:55:16 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:114 | AI verdict generated successfully
 2025-11-09 03:55:16 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
+2025-11-09 07:43:29 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 07:43:31 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:101 | Generating AI verdict for similarity analysis...
+2025-11-09 07:43:33 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:114 | AI verdict generated successfully
+2025-11-09 07:43:33 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
