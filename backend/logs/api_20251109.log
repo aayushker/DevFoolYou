@@ -390,3 +390,16 @@ google.api_core.exceptions.NotFound: 404 models/gemini-1.5-flash is not found fo
 2025-11-09 11:22:05 | INFO     | devfoolyou.mongodb:close:56 | MongoDB connection closed
 2025-11-09 11:22:05 | INFO     | devfoolyou:lifespan:53 | ✅ MongoDB connection closed
 2025-11-09 11:22:05 | INFO     | devfoolyou:lifespan:54 | 👋 Server shutdown complete
+2025-11-09 11:46:43 | INFO     | devfoolyou.services.ai_intelligence:_initialize_gemini:28 | Gemini AI initialized with model: gemini-2.0-flash
+2025-11-09 11:46:44 | INFO     | devfoolyou:lifespan:28 | Starting DevFoolYou API Server...
+2025-11-09 11:46:44 | INFO     | devfoolyou.mongodb:connect:26 | Connecting to MongoDB...
+2025-11-09 11:46:47 | INFO     | devfoolyou.mongodb:connect:45 | ✅ Connected to MongoDB database: DevFoolYou
+2025-11-09 11:46:47 | INFO     | devfoolyou:lifespan:33 | ✅ MongoDB connected successfully
+2025-11-09 11:46:47 | INFO     | devfoolyou.embedding:initialize:25 | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-11-09 11:46:55 | INFO     | devfoolyou.embedding:initialize:36 | ✅ Embedding model loaded (dimension: 384)
+2025-11-09 11:46:55 | INFO     | devfoolyou:lifespan:41 | ✅ Embedding model loaded successfully
+2025-11-09 11:46:55 | INFO     | devfoolyou:lifespan:46 | 🚀 Server started successfully!
+2025-11-09 11:52:35 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:127 | Finding similar projects for: https://devfolio.co/projects/dbuz
+2025-11-09 11:52:36 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:101 | Generating AI verdict for similarity analysis...
+2025-11-09 11:52:38 | INFO     | devfoolyou.services.ai_intelligence:generate_similarity_verdict:114 | AI verdict generated successfully
+2025-11-09 11:52:38 | INFO     | devfoolyou.routers.similarity:similarity_search_by_url:167 | Found 5 similar projects
